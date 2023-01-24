@@ -1,0 +1,998 @@
+﻿<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endicouf]-->
+    <head>
+        <meta charset="utf-8">
+       <!-- <base href="/" />-->
+	   <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <style type="text/css">
+            
+                         
+			.custom-textbox{width:40px;text-align:center;height:25px;border-radius:3px;background:#fff;padding-right:5px;margin-bottom:5px;border:1px solid #d3d3d3;}
+			.setvertical-align{position:relative;top:106px;}
+			.padding_vertical_align{position:relative;top:0;}
+			.border_vertical_align{position:relative;top:47px;}
+			.layout-txt{font-size:10px;}
+			.action-hover-row-left a{display:block!important;color:#fff!important;margin-bottom:10px;}
+			.action-hover-row-left a:last-child{margin-bottom:0;}
+			.action-hover-row-top a{font-size:14px;margin-right:10px;color:#fff;}
+			.action-hover-row-top-left{background:#005184;position:absolute;z-index:1000;}
+			.action-hover-row-top-left a{color:#fff!important;}
+			.parentDivcontainer{position:absolute;width:1100px;margin-top:-10px;}
+			.lit{color:#195f91;}
+			.fun{color:#dc322f;}
+			.str,.atv{color:#D14;}
+			.kwd,.prettyprint .tag{color:#1e347b;}
+			.typ,.atn,.dec,.var{color:teal;}
+			.pln{color:#48484c;}
+			.prettyprint{background-color:#f7f7f9;border:1px solid #e1e1e8;padding:8px;}
+			.prettyprint.linenums{-webkit-box-shadow:inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;-moz-box-shadow:inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;box-shadow:inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;}
+			ol.linenums{margin:0 0 0 33px;}
+			ol.linenums li{padding-left:12px;color:#bebec5;line-height:20px;text-shadow:0 1px 0 #fff;}
+			.graph{background:#5cb85c;width:80%;height:20px;display:inline-block;max-width:90%;margin-right:10px;}
+			.header-banner{width:100%;margin-top:19px;}
+			.myCarousel2{margin-right:15px;}
+			.twitterbtn{position:relative;top:-7px;}
+			.com,.pun,.opn,.clo{color:#93a1a1;}
+            
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!--CSS for member form--> 
+        <link href="css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/summernote.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/jquery-hex-colorpicker.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <link rel="stylesheet" href="css/front-end.css">
+        <link rel="stylesheet" href="css/menu-style.css">
+        <link href="css-1?family=Open+Sans" rel="stylesheet">
+        <link href="css-1?family=Open+Sans" rel="stylesheet">
+       <link href="css-2?family=Josefin+Sans:300,300i,400,400i,700,700i|Nunito:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="1.10.12/css/jquery.dataTables.min.css">
+         <link rel="stylesheet" href="css/chat.css">
+         <link rel="stylesheet" href="css/pink.css">
+         <link rel="stylesheet" href="css/pink_new.css">
+         <link rel="stylesheet" href="css/pink-of-london.css">
+         <link rel="stylesheet" type="text/css" href="multiselect_js_css/css/multi-select.css">
+		
+		
+		
+    </head>
+    <body onresize="resize_height(this)" style="display:none;">
+                                     
+                <div class="container-fluid">
+
+                    <div class="container">
+					
+                        <nav class="navbar navbar-trasparent" id="menu" role="navigation">
+    	  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+                        <div class="navbar-brand navbar-brand-centered">
+                            <a href="index.htm"><img src="pink-image/Pink%20of%20London_Logo_icon_copper.png"></a>
+                        </div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+                          
+                                                               <li class="sub_menu_custom"><a href="About.html">About </a>
+                                                                          
+                                     </li>   
+                                                                       <li class="sub_menu_custom"><a href="index.htm" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+                                     <ul class="dropdown-menu menudropdown">                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Services.html">All Services</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Hair.html">Hair</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Waxing_and_Threading.html">Waxing and Threading</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Lash_and_Brows.html">Lash and Brows</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Makeup.html">Makeup</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Facials.html">Facials</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="SPA.html">Spa</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="spray_tan.html">Spray Tan</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Nails.html">Nails</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="Laser.html">Laser</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li>
+                                                      <a tabindex="-1" href="aesthetics.html">Aesthetics</a>
+                                                                                                     
+                                                  </li>  
+                                                                                                    
+                                                  <li class="dropdown-submenu">
+                                                      <a tabindex="-1" href="package.html">Packages</a>
+                                                    <ul class="dropdown-menu ">                                                         <li><a href="ElemisSpaDay.html">Elemis Spa Day</a></li>   
+                                                           
+                                                                                                                 <li><a href="ElemisSpaDay2.html">Elemis Spa Day For  Two</a></li>   
+                                                           
+                                                                                                                 <li><a href="CelebrationPackage.html">Celebration Package</a></li>   
+                                                           
+                                                                                                                 <li><a href="PinkFor2.html">Pink For Two</a></li>   
+                                                           
+                                                                                                                 <li><a href="LittlePinkPackage.html">Little Pink Package</a></li>   
+                                                           
+                                                                                                                 <li><a href="pinkoflondonsignature.html">Pink's Signature Day Package</a></li>   
+                                                           
+                                                        </ul>                                                  
+                                                  </li>  
+                                                </ul>                                     
+                                     </li>   
+                                                            
+		      
+                        
+<!--                        <li class="dropdown" id="accountmenu">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<b class="caret"></b></a>
+                    <ul class="dropdown-menu menudropdown">
+                        <li><a  href="#">Hair</a></li>
+                        <li><a  href="#">Vaxing & Threading</a></li>
+                        <li><a  href="#">Lash & Brows</a></li>
+                        <li><a  href="#">Makeup</a></li>
+                        <li><a  href="#">Facials</a></li>
+                        <li><a  href="#">SPA</a></li>
+                        <li><a  href="#">SPRAY TAN</a></li>
+                        <li><a  href="#">NAil</a></li>
+                        <li><a  href="#">Laser</a></li>
+                        <li><a  href="#">AESTHETICS</a></li>
+                      	<li class="dropdown-submenu">
+                          <a tabindex="-1" href="#">More options</a>
+                          <ul class="dropdown-menu ">
+                            <li><a tabindex="-1" href="#">Second level</a></li>
+                            <li class="dropdown-submenu">
+                              <a href="#">More..</a>
+                              <ul class="dropdown-menu">
+                                  <li><a href="#">3rd level</a></li>
+                                  <li><a href="#">3rd level</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Second level</a></li>
+                            <li><a href="#">Second level</a></li>
+                          </ul>
+                        </li>
+                       
+                    </ul>
+                </li>
+                        -->
+                        
+                        
+                     
+		        
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+                          
+                          
+                                                               <li class="sub_menu_custom"><a href="book-your-treatment/index.php.html">Booking </a>
+                                                                          
+                                     </li>   
+                                                                       <li class="sub_menu_custom"><a href="contact.php.html">Contact  </a>
+                                                                          
+                                     </li>   
+                                                            
+		        
+		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+
+
+
+
+
+
+<!-- Main container -->
+<div class="container hidden-md hidden-lg hiddien-sm">
+	<!-- food icons -->
+	<link rel="stylesheet" type="text/css" href="css/organicfoodicons.css">
+	<!-- demo styles -->
+	
+	<!-- menu styles -->
+	<link rel="stylesheet" type="text/css" href="css/component_menu.css">
+	<script src="js/modernizr-custom.js"></script>
+	
+	
+	<button class="action action--open" aria-label="Open Menu" style="background:transparent; padding:10px 0; top: 6px;    left: 82%;"><a href="javascript:;" style="color:#facad7;" class="icon icon--menu"></a></button>
+	
+	<!-- Menu -->
+	<nav id="ml-menu" class="menu">
+		<!-- Close button for mobile version -->
+		<button class="action action--close hidden-md hidden-lg" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+		<div class="menu__wrap">
+                    
+                        <ul data-menu="main" class="menu__level"><li class="menu__item">
+                                                                  <a class="menu__link" href="About.html">About</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" data-submenu="12" href="#">Services</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="book-your-treatment/index.php.html">Booking</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="contact.php.html">Contact </a>
+
+                                                               </li>
+			
+                                </ul><br><ul data-menu="12" class="menu__level"><li class="menu__item">
+                                                                  <a class="menu__link" href="Services.html">All Services</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Hair.html">Hair</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Waxing_and_Threading.html">Waxing and Threading</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Lash_and_Brows.html">Lash and Brows</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Makeup.html">Makeup</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Facials.html">Facials</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="SPA.html">Spa</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="spray_tan.html">Spray Tan</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Nails.html">Nails</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="Laser.html">Laser</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="aesthetics.html">Aesthetics</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" data-submenu="36" href="#">Packages</a>
+
+                                                               </li></ul><br><ul data-menu="36" class="menu__level"><li class="menu__item">
+                                                                  <a class="menu__link" href="ElemisSpaDay.html">Elemis Spa Day</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="ElemisSpaDay2.html">Elemis Spa Day For  Two</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="CelebrationPackage.html">Celebration Package</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="PinkFor2.html">Pink For Two</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="LittlePinkPackage.html">Little Pink Package</a>
+
+                                                               </li><li class="menu__item">
+                                                                  <a class="menu__link" href="pinkoflondonsignature.html">Pink's Signature Day Package</a>
+
+                                                               </li></ul><br>                    
+			
+		</div>
+	</nav>
+	
+</div>
+<!-- /view -->
+                      <script src="js/classie.js"></script>   
+                    
+	<script src="js/dummydata.js"></script>
+	<script src="js/main.js"></script>
+<script>
+(function() {
+	var menuEl = document.getElementById('ml-menu'),
+		mlmenu = new MLMenu(menuEl, {
+			// breadcrumbsCtrl : true, // show breadcrumbs
+			// initialBreadcrumb : 'all', // initial breadcrumb text
+			backCtrl : false, // show back button
+			// itemsDelayInterval : 60, // delay between each menu item sliding animation
+			onItemClick: loadDummyData // callback: item that doesn�t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+		});
+
+	// mobile menu toggle
+	var openMenuCtrl = document.querySelector('.action--open'),
+		closeMenuCtrl = document.querySelector('.action--close');
+
+	openMenuCtrl.addEventListener('click', openMenu);
+	closeMenuCtrl.addEventListener('click', closeMenu);
+
+	function openMenu() {
+		classie.add(menuEl, 'menu--open');
+	}
+
+	function closeMenu() {
+		classie.remove(menuEl, 'menu--open');
+	}
+
+	// simulate grid content loading
+	var gridWrapper = document.querySelector('.content');
+
+	function loadDummyData(ev, itemName) {
+		ev.preventDefault();
+
+		closeMenu();
+		gridWrapper.innerHTML = '';
+		classie.add(gridWrapper, 'content--loading');
+		setTimeout(function() {
+			classie.remove(gridWrapper, 'content--loading');
+			gridWrapper.innerHTML = '<ul class="products">' + dummyData[itemName] + '<ul>';
+		}, 700);
+	}
+})();
+</script>
+                    </div>
+                </div>  
+                        
+        
+        
+        
+        <div class="container-fluid main-header-background pink_pinkoflondonsignature" style="  background-color:#F2F4F3 ">
+            <div class="main-header-background-new row" style=" background-image:url('image/5cc035b530642');"></div>
+            <svg width="0" height="0">
+				<defs>
+				  <clippath id="myClip" clippathunits="objectBoundingBox">
+				   <polygon points="0 0, 1 0, 1 0.32, 0 1"></polygon>
+				   </clippath>
+				</defs>
+			</svg>
+            
+            <div class="container">
+            
+                             
+               
+                
+                
+                                             
+
+                        
+                        
+                        
+                        
+                        
+                        
+                                                
+						
+							
+							
+							
+							
+							
+				  			
+						
+                          
+                       
+                                                <div class="main_page_content">
+                        
+															
+                                <div class="row  "><div class="col-md-12 "><div style="" class=""><div class="gap-area manage_height" style="height:175px;"></div></div><div style="" class=""> <div class="pink-border-box our-packages">
+                    <div class="pink-border-box-content">
+                        <h1>Pink’s Signature Day Package</h1>
+                           <span class="hr"></span>
+
+                          <h3>Blow-dry, Signature Manicure and Signature Pedicure, 60 Minute Massage, <br> 30 Minute Facial and a glass of Champagne </h3>
+                              <h4>£260 (4 hours, 15 minutes)</h4>
+                                  
+                        <p><div>Looking for something a bit more extraordinary? </div>
+<div>Experience the ultimate indulgence in getting ready for a big day or just a simple pamper, Everything you desire is luxuriously taken care of - all that's left is for you is to relax.</div> 
+                        
+                        <p><a href="tel:02080378555" class="pink-london-btn">Call to Book</a>
+						 <br>  <br>  <span class="call-to-book"><strong>020 8037 8555</strong></span>
+						</p>
+                        
+                    
+                    </div>
+                    
+                </div></div><div style="" class=""><div class="gap-area " style="height:50px;"></div></div><div style="" class=""><div class="text-center"> <img src="pink-image/Pink%20of%20London_Logo_icon_black.png" style="width:50px;"> <br> <h1 class="central-heading">Other Packages</h1> <br> <span class="hr"></span></div></div><div style="" class=""><div class="gap-area " style="height:50px;"></div></div><div style="" class="">   <div class="pink-service-box-large other_packages">
+                     <div class="col-md-4">
+                         <div class="pink-service-box-large-image">
+                             <img src="package-image/packages_1556102572_celebra.jpg" alt="">
+                         </div>
+                     </div>
+                     <div class="col-md-8 addtional_space">
+                         <h1>Celebration Package</h1>
+                         <p><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Treat yourself before that special birthday or celebration event – perfect for when you want to make an entrance looking and feeling incredible.</p>
+</body>
+</html></p> 
+                             
+                        <p>£180 (3 hours, 15 minutes)</p> 
+                             
+<p><a href="CelebrationPackage.html" class="pink-london-btn">Read More</a></p>
+                     </div>
+                     
+                      <div class="clearfix"></div>
+                 </div></div><div style="" class="">   <div class="pink-service-box-large other_packages">
+                     
+                     <div class="col-md-8 addtional_space_right">
+                         <h1>Pink for Two</h1>
+                         <p><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Glam up together with your best friend, mother, sister, aunt or grandmother! Some things in life are better enjoyed with others.  </p>
+<p>Perfect gift for Mother’s Day!</p>
+<p> </p>
+</body>
+</html></p> 
+                             
+                        <p>£200 (2 hours, 15 minutes)</p> 
+                             
+<p><a href="PinkFor2.html" class="pink-london-btn">Read More</a></p>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="pink-service-box-large-image">
+                             <img src="package-image/packages_1556103210_pink-for-two-package.jpg" alt="">
+                         </div>
+                     </div>
+                      <div class="clearfix"></div>
+                 </div></div><div style="" class="">   <div class="pink-service-box-large other_packages">
+                     <div class="col-md-4">
+                         <div class="pink-service-box-large-image">
+                             <img src="package-image/packages_1556103058_little-pink-package.jpg" alt="">
+                         </div>
+                     </div>
+                     <div class="col-md-8 addtional_space">
+                         <h1>Little Pink Package</h1>
+                         <p><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>For the special little one in your life – treat them to a bit of luxury and pampering.  They will feel amazing and so will you.   </p>
+<p> </p>
+</body>
+</html></p> 
+                             
+                        <p>£40 (£55 with Haircut)</p> 
+                             
+<p><a href="LittlePinkPackage.html" class="pink-london-btn">Read More</a></p>
+                     </div>
+                     
+                      <div class="clearfix"></div>
+                 </div></div><div style="" class="">   <div class="pink-service-box-large other_packages">
+                     
+                     <div class="col-md-8 addtional_space_right">
+                         <h1>Elemis Spa Day</h1>
+                         <p><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>There’s no need to travel to experience the ultimate relaxing spa day – it’s right here waiting for you. Take time to unwind and be pampered from head to toe.</p>
+</body>
+</html></p> 
+                             
+                        <p>£180 (3 hours)</p> 
+                             
+<p><a href="ElemisSpaDay.html" class="pink-london-btn">Read More</a></p>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="pink-service-box-large-image">
+                             <img src="package-image/packages_1556102976_about-spa.jpg" alt="">
+                         </div>
+                     </div>
+                      <div class="clearfix"></div>
+                 </div></div><div style="" class="">   <div class="pink-service-box-large other_packages">
+                     <div class="col-md-4">
+                         <div class="pink-service-box-large-image">
+                             <img src="package-image/packages_1556102962_elimis-spa-day-2.jpg" alt="">
+                         </div>
+                     </div>
+                     <div class="col-md-8 addtional_space">
+                         <h1>Elemis Spa Day for Two</h1>
+                         <p><!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Experience the ultimate relaxing spa day with your most favourite person in the world! Feel fabulous together with treatments in your own private spa sanctuary. </p>
+<p>Perfect for a couples retreat or a girls day out. </p>
+<p> </p>
+</body>
+</html></p> 
+                             
+                        <p>£360 (3 hours)</p> 
+                             
+<p><a href="ElemisSpaDay.html" class="pink-london-btn">Read More</a></p>
+                     </div>
+                     
+                      <div class="clearfix"></div>
+                 </div></div></div></div>                            </div>
+                                        
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <!-- ********************************* -->
+                
+                 <div class="clearfix" style="clear:both;"></div>
+                 <div class="clearfix"></div>
+                 
+                 
+                 
+                
+                
+                
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+		        
+           <footer id="pink-footer">
+                <div class="container">
+                                        
+                <div class="col-md-4">
+                    <h2>GET In Touch</h2>
+                    
+                    <p><p>14 Wades Hill,<br>Winchmore Hill,<br>London N21 1BG<br><br><a style="color: #3c3c3b;" href="contact.php.html">Join our <strong>Pink Club</strong></a> <br><br><a style="color: #3c3c3b;" href="mailto:hello@pinkoflondon.com">hello@pinkoflondon.com</a><br><br>020 8037 8555</p>
+                    <p class='hide'>
+                        
+                        14 Wades Hill,<br>
+Winchmore Hill,<br>
+London N21 1BG <br><br>
+<a href="contact.php.html">Join our Pink Club</a><br><br>
+<a href="mailto:hello@pinkoflondon.com" style="color:#3c3c3b">hello@pinkoflondon.com</a><br>
+020 8037 8555
+                    </p>
+                    
+                </div>
+                <div class="col-md-4">
+                    <h2>Opening Hours</h2>
+                  <p>Monday, Tuesday &amp; Wednesday - 9am - 6pm</p>
+<p>Thursday - 9am - 8pm</p>
+<p>Friday &amp; Saturday - 9am - 7pm</p>
+<p>Sunday - Closed</p>                    
+                </div>
+                <div class="col-md-4">
+                    <h2>Get Social <a href="https://www.instagram.com/pinkoflondon" style="color:#3c3c3b;" target="_blank">@pinkoflondon</a> </h2>
+                    <p class="instagram">
+					
+					<!-- LightWidget WIDGET <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/0e22954c7dcb5a2c922664e215476c44.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>-->
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </p>
+                </div>
+                   <div class="clearfix" style="clear:both;"></div>
+                   
+                   <div class="text-center">
+<p>&copy; Pink of London. All rights reserved. Designed by Toffee Design Limited. This site is owned and operated by Pink of London.</p>
+<p>You will not copy or distribute any part of the website in any medium without our prior written consent.</p></div>
+                   
+                    <p class="text-center socail_media">
+                        <a href="https://www.instagram.com/pinkoflondon/?hl=en" target="_blank"><img src="pink-image/icon-instagram.png" alt="instagram"></a>
+                        <a href="https://www.facebook.com/pinkoflondon/" target="_blank"><img src="pink-image/icon-facebook.png" alt="facebook"></a>
+                        <a href="https://twitter.com/pinkoflondon" target="_blank"><img src="pink-image/icon-twitter.png" alt="twitter"></a>
+                        <br><br>
+                      <a href="Terms_and_Conditions.html" style="color:#3c3c3b;">Terms and conditions</a>
+                   </p>
+                                    </div>
+    
+    
+    <a href="#" id="toTop"><i class="fa fa-caret-up"></i></a>
+            </footer>
+            
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="gtag/js?id=UA-139466248-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139466248-1');
+</script>
+            
+                    
+         
+        
+     
+
+	 
+
+
+            
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+           
+       
+        
+          
+           
+        <div id="content-area-temp" style="display: none"></div>
+        
+
+        <script src="js/jquery-2.1.4.min.js.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+        <script src="js/jquery.validate.min.js"></script>    
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.bootstrap.wizard.min.js"></script>
+        <script src="js/prettify.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery-hex-colorpicker.js"></script>
+        
+        <!--main js for vc--> 
+        <script src="js/pc_core.js"></script>
+        <!--common important javascript function--> 
+        <script src="include/common_component_functions.js"></script>
+		
+		 <!-- dataTables -->
+        <script src="js/plugins/datatable/jquery.dataTables.min.js"></script>
+        <script src="js/plugins/datatable/TableTools.min.js"></script>
+        <script src="js/plugins/datatable/ColReorderWithResize.js"></script>
+        <script src="js/plugins/datatable/ColVis.min.js"></script>
+        <script src="js/plugins/datatable/jquery.dataTables.columnFilter.js"></script>
+        <script src="js/plugins/datatable/jquery.dataTables.grouping.js"></script>
+        
+        
+        <script type="text/javascript">
+            //Code to instanciate components 
+        
+            $(function(){
+                
+               
+                
+                instantiateComponents();
+                
+                        
+                 
+       
+                
+            });
+            
+            
+            $(document).ready(function() {
+    $('.navbar a.dropdown-toggle').on('click', function(e) {
+        var $el = $(this);
+        var $parent = $(this).offsetParent(".dropdown-menu");
+        $(this).parent("li").toggleClass('open');
+
+        if(!$parent.parent().hasClass('nav')) {
+            $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+        }
+
+        $('.nav li.open').not($(this).parents("li")).removeClass("open");
+
+        return false;
+    });
+});
+
+            
+        </script>
+        
+        <script src='recaptcha/api.js'></script>
+        <!--JS for components--> 
+        <!--JS for banner component--> 
+        <script src="components/banner/pc_component_banner.js"></script>
+        <!--JS for text_block component--> 
+        <script src="components/text_block/pc_component_text_block.js"></script>
+        <!--JS for single_image component--> 
+        <script src="components/single_image/pc_component_single_image.js"></script>
+        
+        <script src="components/page_heading/pc_component_page_heading.js"></script>
+        <!--JS for gap_area component--> 
+        <script src="components/gap_area/pc_component_gap_area.js"></script>
+        
+        
+        <script src="components/java_script/pc_component_java_script.js"></script>
+       
+       <script src="components/service_home/pc_component_service_home.js"></script>
+       <script src="components/single_image_link/pc_component_single_image_link.js"></script>
+          
+        <script src="components/our_product/pc_component_our_product.js"></script>
+          <script src="components/our_people/pc_component_our_people.js"></script>
+         <script src="components/feature_services/pc_component_feature_services.js"></script>
+         <script src="components/services/pc_component_services.js"></script>
+          <script src="components/service_price_list/pc_component_service_price_list.js"></script>
+          <script src="components/service_details/pc_component_service_details.js"></script>
+          <script src="components/packages/pc_component_packages.js"></script>
+            <script src="components/other_package/pc_component_other_package.js"></script>
+           <script src="components/heading_sub_heading_details_link/pc_component_heading_sub_heading_details_link.js"></script>
+         <script src="components/testimonial/pc_component_testimonial.js"></script>
+         <script src="components/central_heading/pc_component_central_heading.js"></script>
+         
+        	
+        
+            <!--       Including Recaptch js            --> 
+        <script src='recaptcha/api.js'></script>
+        
+        <!-- Js for getting actual and design html -->
+        
+        <script src="js/getHtml.js"></script>    
+        
+        
+        <script src="backend89/js/media-manager.js"></script>
+        
+        <script type="text/javascript" src="js/summernote.js"></script>
+        
+        
+        
+        <script type="text/javascript">
+        
+                $(function() {
+
+                    $('.summernote').summernote({
+                      height: 200,
+                      
+                      onImageUpload: function(files, editor, welEditable) {
+                                  sendFile(files[0], editor, welEditable);
+                              }
+                      });
+
+
+                    function sendFile(file, editor, welEditable) {
+
+                        data = new FormData();
+                        data.append("file", file);
+
+                        $.ajax({
+                            data: data,
+                            type: "POST",
+                            url: "text_block_image_upload.php",
+                            cache: false,
+                            contentType: false,
+                            processData: false,
+                            success: function(url) {
+                                editor.insertImage(welEditable, url);
+                            }
+                        });
+                    }
+
+                });
+                
+        </script>
+        
+        
+        <script type="text/javascript">
+        
+          $(function(){
+              
+              $(".colorpicker").hexColorPicker();
+			 
+							 if($("#nav").length > 0) {
+							 $.post(window.location.href,{'menu_state_session':$('#nav')[0].outerHTML},function(resp){
+								 
+								
+								
+						     });
+						}
+              
+              
+              
+              // Code for setting device data
+                
+         //////////////////     set_device_data(); 
+			  
+			  //search user datatable
+			  
+             // $('#usersearchTable1').dataTable();
+              
+               $('#usersearchTable1').dataTable({
+                    "sPaginationType": "full_numbers",
+                    "bJQueryUI": false,
+                    "bAutoWidth": false,
+                    "bLengthChange": true,
+                    "iDisplayLength": 100,
+                    "aoColumns": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        {"bSortable": false}
+
+                    ],
+                    "bServerSide": true,
+                    "sAjaxSource": "data_search_user.php?table=" + $('#usersearchTable1').attr('rel')
+
+
+                });
+ 
+			  
+              
+          })
+        
+          
+          // Code for setting device data on orientation change
+        
+        
+        /*  screen.orientation.onchange = function (){
+          //    set_device_data();
+          }; */  
+        
+        
+         function set_device_data(){
+             
+                var device = "";
+                var orientation = screen.orientation.type.match(/\w+/)[0];
+                
+                if(/iP(hone|od)|android.+mobile|BlackBerry|IEMobile/i.test(navigator.userAgent)) {
+                    var device = "mobile";
+                }else if (/(tablet|ipad|playbook|silk)|(android(?!.*mobile))/i.test(navigator.userAgent)) {
+                    var device = "tablet";
+                }else{
+                    
+                    if(parseInt($(window).width()) >  1360)
+                        var device = "large desktop";
+                    else
+                        var device = "desktop";
+                    
+                }
+              
+                
+                $.post("set_device_data.php",{device:device,orientation:orientation,operation:"set_device_data"},function(response){
+                    
+                })
+             
+         }
+        
+        
+
+        
+        
+        </script>
+        
+        
+        
+     
+        
+        <!--<script type="text/javascript" src="include/component_initialization_script.js"></script>-->
+
+        
+         <script type="text/javascript">
+
+                
+                
+                $("#tblNewsList").dataTable({ "bSort" : false });
+				
+				//screen.orientation.lock('landscape');
+                //{"filter":false,"iDisplayLength": 100, "bLengthChange": false}
+            </script>
+		
+		
+    <!--</div>-->
+        
+        		 
+		 
+		 
+     <script src="multiselect_js_css/js/jquery.multi-select.js"></script>
+     
+     <script>
+		
+		$(function(){
+			$('body').trigger("resize");
+		  //  $(window).trigger('resize');
+		 window.dispatchEvent(new Event('resize'));
+		 
+		 
+		})
+	
+
+		function resize_height(elm){
+			var page = $("#page_name").val();
+			var width = $(elm).width();
+			//var height = $(elm).height();
+			var new_height = width/1.8965;
+			
+			if(page =="home"){
+				$(".main-header-background-new").css({"background-size":"cover"});
+				if(width < 768 ){
+					$(".main-header-background-new").height(600);
+				} else if(new_height < 1044 ){
+					$(".main-header-background-new").height(700);
+					$(".main-header-background-new").css({"background-size":"cover"});					
+				} else{
+					//$(".main-header-background-new").height(1044);
+					$(".main-header-background-new").height(700);
+					$(".main-header-background-new").css({"background-size":"cover"});
+				}
+			
+			}
+			
+			else {
+			
+				if(width < 768 ){
+					$(".main-header-background-new").height(300);
+					$(".main-header-background-new").css({"background-size":"cover"});
+				} 
+			
+				else if(new_height < 675 ){
+					$(".main-header-background-new").height(new_height);
+				}
+				else{
+					$(".main-header-background-new").height(675);
+					$(".main-header-background-new").css({"background-size":"cover"});
+				}
+			}
+			$('body').show();
+			
+		}
+		
+		
+		 $(document).ready(function(){
+          $('.dropdown-menu').mouseleave(function(){
+              $('#navbar-brand-centered').find('li').removeClass('open');
+          }) 
+       });
+		</script>
+
+        <input type='hidden' id='page_name' value='pinkoflondonsignature'>
+    </body>
+</html>
